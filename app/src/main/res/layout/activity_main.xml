@@ -7,29 +7,58 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/appTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginBottom="436dp"
+        android:text="@string/appTitle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.111" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/trainerName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="104dp" />
+        android:text="@string/trainerName"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="132dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="280dp" />
+        android:text="@string/btnStart"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/editName"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <TextView
+        android:id="@+id/trainerDB"
+        android:layout_width="340dp"
+        android:layout_height="163dp"
+        android:text="@string/trainerDB"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <TextView
+        android:id="@+id/recentTrainer"
+        android:layout_width="120dp"
+        android:layout_height="23dp"
+        android:text="@string/recentTrainer"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="295dp" />
 
 </android.support.constraint.ConstraintLayout>
