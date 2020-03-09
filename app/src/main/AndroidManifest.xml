@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".questionOneActivity"></activity>
+        <activity android:name=".QuestionOneActivity" />
+        <activity android:name=".QuestionTwoActivity" />
+        <activity android:name=".QuestionThreeActivity" />
+        <activity android:name=".QuestionFourActivity" />
+        <activity android:name=".QuestionFiveActivity"></activity>
     </application>
 
 </manifest>
